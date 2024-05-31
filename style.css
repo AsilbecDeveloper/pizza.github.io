@@ -1,0 +1,437 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-image: url(./photos/header_bg\ 1.jpg);
+    background-size: cover;
+    padding-bottom: 370px;
+}
+
+header .top {
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+    align-items: center;
+}
+
+header .top .logo h1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+header .top .contact {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+header .top .contact p {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+header .top .contact button {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #68BF3C;
+    color: white;
+}
+
+header .bot {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+header .bot p {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 15px;
+}
+
+header .bot h1 {
+    font-family: 'Montserrat';
+    font-size: 72px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 20px;
+}
+
+header .bot .p1 {
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: white;
+    margin-bottom: 30px;
+}
+
+header .bot button {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #68BF3C;
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    height: auto;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+main .left img {
+    width: 100%;
+}
+
+main .right {
+    max-width: 710px;
+}
+
+main .right h1 {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 700;
+    color: #68BF3C;
+    margin-bottom: 35px;
+}
+
+main .right p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #BDBDBD;
+
+}
+
+main .right .sign {
+    display: flex;
+    gap: 20px;
+}
+
+main .right .sign h2 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    color: #BDBDBD;
+    padding: 40px 0px;
+}
+
+main .right .sign img {
+    width: 163px;
+    height: 162px;
+}
+
+
+section {
+    max-width: 1000px;
+    height: auto;
+    margin: 50px auto;
+}
+
+section>h1 {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    font-weight: 700;
+    color: #68CD16;
+    margin: 40px 0px;
+}
+
+section .box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+section .box .item {
+    max-width: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+section .box .item .card img {
+    width: 100%;
+}
+
+section .box .item .card2 {
+    max-width: 332px;
+}
+
+section .box .item .card2 h1 {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    color: #A6A6A6;
+    margin: 20px 0px;
+}
+
+section .box .item .card2 p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 500;
+    color: #666666;
+    line-height: 23px;
+}
+
+section .box .card3 p {
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 700;
+    color: #A6A6A6;
+    text-align: center;
+    margin-top: 50px;
+}
+
+section .box .card3 span {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section .box .card3 button {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #68BF3C;
+    color: white;
+    margin-top: 15px;
+}
+
+summary {
+    max-width: 1000px;
+    height: auto;
+    margin: 180px auto;
+    /* border: 2px solid black; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 40px;
+}
+
+summary .test {
+    /* border: 2px solid black; */
+    /* width: 350px; */
+    /* height: auto; */
+    box-sizing: border-box;
+}
+
+summary .test img {
+    width: 100%;
+}
+
+summary .test h1 {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    color: #A6A6A6;
+    margin-top: 10px;
+}
+
+summary .test p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #A6A6A6;
+    margin-top: 10px;
+}
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #060503;
+}
+
+footer .contact {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+footer .contact .logo h1 {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+footer .contact .numb {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .contact .numb p {
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+}
+
+footer .contact .numb button {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: #68BF3C;
+    color: white;
+}
+
+footer > p {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 250;
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+
+@media screen and (max-width: 1250px) {
+    header .top {
+        padding: 40px 15px;
+    }
+
+    header .bot {
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    section {
+        padding: 0px 15px;
+    }
+
+    summary {
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    section h1 {
+        text-align: center;
+    }
+
+    section .box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    summary {
+        display: grid;
+        grid-template-columns: auto auto;
+        row-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    section .box .item {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    header .top {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header .bot {
+        text-align: center;
+    }
+    footer .contact{
+        padding: 30px 15px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    summary {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 0px 40px;
+    }
+    footer .contact .numb{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header .top .contact {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    main .sign {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
