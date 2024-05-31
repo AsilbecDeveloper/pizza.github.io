@@ -60,6 +60,12 @@ header .top .contact button {
     background-color: #68BF3C;
     color: white;
 }
+header .top .contact button a {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
 
 header .bot {
     max-width: 1200px;
